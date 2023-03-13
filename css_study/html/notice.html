@@ -79,9 +79,48 @@
                             </label>
                         </div>
                     </div>
+                    <div class="product-detail-info">
+                        <div class="cpu-image">
+                            <img src="../images/apple-m2-icon-mac-202206.png">
+                        </div>
+                        <div class="product-simple-info">8코어 CPU</div>
+                        <div class="product-simple-info">8코어 GPU</div>
+                        <div class="product-simple-info">8GB 통합 메모리</div>
+                        <div class="product-simple-info">256GB SSD 저장 장치¹</div>
+                        <ul class="product-specs-list">
+                            <li>16코어 Neural Engine</li>
+                            <li>True Tone을 갖춘 34.5cm Liquid Retina 디스플레이</li>
+                            <li>1080p FaceTime HD 카메라</li>
+                            <li>MagSafe 3 충전 포트</li>
+                            <li>Thunderbolt/USB 4 포트 2개</li>
+                            <li>Touch ID 탑재형 Magic Keyboard</li>
+                            <li>Force Touch 트랙패드</li>
+                            <li>30W USB-C 전원 어댑터</li>
+                        </ul>
+                        <div class="price-container">
+                            <div class="product-price">₩1,690,000</div>
+                            <div class="product-price-monthly-plan">약 ₩153,636의 VAT 포함◊</div>
+                            <a href="" class="monthly-plan-link">최대 12 개월 신용 카드 할부</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
     </div>
+
+    <script>
+        const element = document.querySelector('.product-select-list');
+
+        window.addEventListener('scroll', () => {
+            const elementRect = element.getBoundingClientRect();
+            const isStopped = elementRect.top === 0 && elementRect.bottom <= window.innerHeight;
+
+            if (isStopped) {
+                element.classList.add('stopped');
+            } else {
+                element.classList.remove('stopped');
+            }
+        });
+    </script>
 </body>
 </html>
