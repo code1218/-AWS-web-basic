@@ -198,7 +198,7 @@ a {
 
 .product-container {
     margin-left: 70px;
-    border: 1px solid #dbdbdb;
+    /* border: 1px solid #dbdbdb; */
     width: 280px;
 }
 
@@ -328,4 +328,99 @@ a {
     padding-top: 6px;
     font-size: 14px;
     color: #0066cc;
+}
+
+.tradeup-content {
+    margin: 30px 0px;
+}
+
+.tradeup-header {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.tradeup-message {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.tradeup-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.product-choice-button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100%;
+    height: 36px;
+
+    background-color: #0071e3;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+    cursor: pointer;
+}
+
+.product-choice-button:hover {
+    background-color: #0077ed;
+}
+
+.product-choice-button:active {
+    background-color: #0066cc;
+}
+
+.saveitem-content {
+    margin: 30px 0px;
+}
+
+.saveitem-header {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.saveitem-message {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.saveitem-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.shipping-content {
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.shipping-content > * {
+    margin-left: 32px;
+}
+
+.shipping-content h3:nth-of-type(1) {
+    margin: 0;
+}
+
+.shipping-content .fa-solid {
+    display: inline-flex;
+    justify-content: center;
+    width: 30px;
+}
+
+.shipping-link {
+    color: #0071e3;
+    font-weight: 600;
 }
