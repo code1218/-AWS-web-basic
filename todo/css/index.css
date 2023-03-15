@@ -1,0 +1,52 @@
+.main-container {
+    margin: 10px auto;
+    width: 550px;
+    height: 100%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main-title {
+    margin: 20px 0px 0px 20px;
+    font-size: 36px;
+}
+
+.todo-input-container {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-right: 50px;
+    width: 70%;
+    height: 40px;
+}
+
+.todo-input-container .fa-file-lines {
+    font-size: 20px;
+    margin: 8px;
+}
+
+.todo-input {
+    width: 100%;
+    height: 100%;
+}
+
+.add-todo-button {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0px;
+
+    border: none;
+    padding: 5px 20px;
+    height: 100%;
+}
+
+
+
+
