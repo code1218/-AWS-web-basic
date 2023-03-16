@@ -7,4 +7,7 @@ window.onload = () => {
     InformationEvent.getInstance().addEventAboutMeSaveClick();
     InformationEvent.getInstance().addEventIntroduceModifyClick();
     InformationEvent.getInstance().addEventIntroduceSaveClick();
+    TodoEvent.getInstance().addEventAddTodoClick();
+    TodoEvent.getInstance().addEventAddTodoKeyUp();
+    TodoService.getInstance();
 }
