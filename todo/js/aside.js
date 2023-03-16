@@ -13,8 +13,10 @@ class AsideEvent {
             const menuAside = document.querySelector(".menu-aside");
             if(menuAside.classList.contains("hidden-menu")) {
                 menuAside.classList.remove("hidden-menu");
+                menuButton.textContent = "◀";
             }else {
                 menuAside.classList.add("hidden-menu");
+                menuButton.textContent = "▶";
             }
         }
     }
